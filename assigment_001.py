@@ -1,0 +1,11 @@
+student_name = input('Enter student name')
+student_age = input('Enter student age')
+student_roll_number = input('Enter student roll number')
+student_phone_number = input('Enter student phone number')
+print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
+print('Student details are following')
+
+print('Student Name = ', student_name)
+print('Student Age  = ', student_age)
+print('Student Roll Number = ', student_roll_number)
+print('Student Phone Number = ', student_phone_number)
