@@ -2,12 +2,12 @@
 #   the first number is greater than, less than, or equal to the second number.
 
 #   takes two inputs from user.
-first_number = float(input("Enter first number "))
-second_number = float(input("Enter second number "))
+number1 = int(input("Enter the first number\n "))
+number2 = int(input("Enter the second number \n "))
 
-print("##############################################\n--------Result are Here--------\n")
-
-# Result are print after comparison
-print("first number greater than second number = ", first_number > second_number)
-print("first number less than second number = ", first_number < second_number)
-print("first number equal second number = ", first_number == second_number)
+if number1 > number2:
+    print("First number is greater than second number")
+elif number1 < number2:
+    print("First number is less than second number")
+else:
+    print("First number is equal to the second number")
